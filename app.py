@@ -15,7 +15,7 @@ from huggingface_hub import login
 load_dotenv()
 login(os.getenv("access_token"))
 # Requirements
-model_path = "imalexianne/distilbert-base-uncased"
+model_path = "imalexianne/xlm-roberta-large_latest_Nov2023"
 
 tokenizer = AutoTokenizer.from_pretrained(model_path, revision="main")
 config = AutoConfig.from_pretrained(model_path, revision="main")
@@ -51,7 +51,7 @@ app = gr.Interface(fn = sentiment_analysis,
                    inputs = gr.Textbox("Write here"),
                    outputs = "label",
                    title = "Sentiment Analysis of Tweets on COVID-19 Vaccines",
-                   description  = "Sentiment Analysis of text based on tweets about COVID-19 Vaccines using a fine-tuned 'distilbert-base-uncased' model",
+                   description  = "Sentiment Analysis of text based on tweets about COVID-19 Vaccines using a fine-tuned 'xlm-roberta-large' model",
 
                    examples = [["Covid vaccination has no positive impact"]]
                    )
