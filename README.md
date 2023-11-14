@@ -49,9 +49,10 @@ From the results of the finetuned evaluation set, I decided to move forward embe
 ![gradio Image](images/roberta%20app.PNG)
 
 
+link to a deployed [hugging face gradio app](https://huggingface.co/spaces/imalexianne/Covid_Vaccine_Tweets_Sentimental_Analysis)
 # Article 
 
-[LinkedIn Pblished Article](https://www.linkedin.com/feed/update/urn:li:activity:7129480399478566912/)
+[LinkedIn Published Article](https://www.linkedin.com/feed/update/urn:li:activity:7129480399478566912/)
 
 # Usage
 
