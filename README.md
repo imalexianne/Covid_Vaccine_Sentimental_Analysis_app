@@ -1,9 +1,6 @@
----
-title: Natural Language Processing Project : Covid Vaccine Tweets Sentimental Analysis App
-app_file: app.py
-sdk: gradio
-sdk_version: 3.34.0
----
+
+# Natural Language Processing Project : Covid Vaccine Tweets Sentimental Analysis App
+
 ![Project Image](images/Roberta.PNG)
 ## Description
 
